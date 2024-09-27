@@ -15,4 +15,15 @@ The choice of AI model or framework depends on several factors:
 3.	**Performance Requirements**: Some applications require real-time processing, which may necessitate the use of lighter, faster models.
 4.	**Existing Infrastructure**: Leveraging existing tools and infrastructure can save time and resources. Compatibility with current systems is crucial.
 5.	**Scalability**: The ability to scale the solution as the business grows is another important consideration.
+
 I typically start with a literature review and benchmark tests to compare different models and frameworks. Consulting with the team and stakeholders ensures that the selected approach aligns with business goals and technical constraints.
+
+# 🔴 Collaborate with cross-functional teams to understand requirements and translate them into AI solutions
+
+## 3. Can you provide an example of how you collaborated with a cross-functional team to understand their requirements and develop an AI solution?
+In a project aimed at improving sales forecasting, I collaborated with the sales, marketing, and IT teams. We held several workshops to gather requirements and understand their pain points, such as inaccurate forecasts and delayed insights.
+
+After gathering the requirements, we identified key data sources, including CRM data, marketing campaigns, and historical sales data. I then worked with the data engineering team to ensure data quality and availability.
+
+We chose a combination of time series models and machine learning algorithms to predict future sales. I also facilitated regular meetings to update stakeholders on progress and incorporate their feedback. The resulting model improved forecast accuracy by 30%, enabling better inventory management and marketing strategies.
+
