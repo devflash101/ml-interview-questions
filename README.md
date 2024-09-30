@@ -27,3 +27,13 @@ After gathering the requirements, we identified key data sources, including CRM 
 
 We chose a combination of time series models and machine learning algorithms to predict future sales. I also facilitated regular meetings to update stakeholders on progress and incorporate their feedback. The resulting model improved forecast accuracy by 30%, enabling better inventory management and marketing strategies.
 
+## 4. How do you ensure effective communication and collaboration with non-technical stakeholders?
+
+Effective communication with non-technical stakeholders involves:
+1.	**Simplifying Technical Concepts**: Explaining AI concepts in simple terms and using analogies that resonate with the audience.
+2.	**Visual Aids**: Using diagrams, flowcharts, and visualizations to convey complex ideas.
+3.	**Regular Updates**: Providing regular updates through meetings, reports, and dashboards to keep stakeholders informed about the project’s progress.
+4.	**Active Listening**: Understanding their concerns and requirements by actively listening and asking clarifying questions.
+5.	**Feedback Loops**: Creating feedback loops to incorporate stakeholder input throughout the project lifecycle.
+
+By building a shared understanding and maintaining open lines of communication, I ensure that the AI solutions meet business needs and gain stakeholder buy-in.
