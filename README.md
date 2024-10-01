@@ -28,7 +28,6 @@ After gathering the requirements, we identified key data sources, including CRM 
 We chose a combination of time series models and machine learning algorithms to predict future sales. I also facilitated regular meetings to update stakeholders on progress and incorporate their feedback. The resulting model improved forecast accuracy by 30%, enabling better inventory management and marketing strategies.
 
 ## 4. How do you ensure effective communication and collaboration with non-technical stakeholders?
-
 Effective communication with non-technical stakeholders involves:
 1.	**Simplifying Technical Concepts**: Explaining AI concepts in simple terms and using analogies that resonate with the audience.
 2.	**Visual Aids**: Using diagrams, flowcharts, and visualizations to convey complex ideas.
@@ -37,3 +36,14 @@ Effective communication with non-technical stakeholders involves:
 5.	**Feedback Loops**: Creating feedback loops to incorporate stakeholder input throughout the project lifecycle.
 
 By building a shared understanding and maintaining open lines of communication, I ensure that the AI solutions meet business needs and gain stakeholder buy-in.
+
+# 🔴 Fine-tune and optimize existing AI models for specific use cases and applications
+
+## 5. Describe a scenario where you fine-tuned an AI model for a specific use case. What techniques did you use?
+In a fraud detection project for a financial services company, we used an existing machine learning model but found that it needed fine-tuning to improve accuracy and reduce false positives.
+I started by conducting a thorough analysis of the model’s performance metrics. We identified several features that were not contributing significantly and removed them to reduce complexity. We then employed techniques such as:
+1.	**Hyperparameter Tuning**: Using grid search and random search to find the optimal hyperparameters for the model.
+2.	**Feature Engineering**: Creating new features based on domain knowledge and data insights to improve the model’s predictive power.
+3.	**Cross-Validation**: Implementing k-fold cross-validation to ensure the model’s robustness and prevent overfitting.
+
+After fine-tuning, the model’s precision and recall improved significantly, leading to better fraud detection and fewer false alarms.
