@@ -47,3 +47,8 @@ I started by conducting a thorough analysis of the model’s performance metrics
 3.	**Cross-Validation**: Implementing k-fold cross-validation to ensure the model’s robustness and prevent overfitting.
 
 After fine-tuning, the model’s precision and recall improved significantly, leading to better fraud detection and fewer false alarms.
+
+## 6. What are some common challenges you face when fine-tuning AI models, and how do you overcome them?
+Common challenges include:
+1.	**Overfitting**: Ensuring the model generalizes well to unseen data. I address this by using cross-validation, regularization techniques, and simplifying the model if necessary.
+2.	**Data Quality**: Dealing with noisy or incomplete data. I work closely with data engineers to clean and preprocess the data, and use techniques like imputation and anomaly detection to handle missing or erroneous
