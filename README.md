@@ -52,3 +52,7 @@ After fine-tuning, the model’s precision and recall improved significantly, le
 Common challenges include:
 1.	**Overfitting**: Ensuring the model generalizes well to unseen data. I address this by using cross-validation, regularization techniques, and simplifying the model if necessary.
 2.	**Data Quality**: Dealing with noisy or incomplete data. I work closely with data engineers to clean and preprocess the data, and use techniques like imputation and anomaly detection to handle missing or erroneous
+
+# 🔴 Data Processing
+## 7. What techniques do you use for feature engineering?
+Feature engineering is a critical step in the machine learning process. I use several techniques depending on the nature of the data and the problem at hand. For numerical data, I apply transformations such as scaling, normalization, and polynomial features. For categorical data, I use techniques like one-hot encoding, label encoding, and embedding representations. I also create interaction features that capture relationships between different variables. Additionally, I employ domain-specific knowledge to derive new features that can provide better insights for the models. For instance, when working on a financial dataset, I created features like moving averages and volatility measures to enhance the predictive power of the models.
