@@ -55,7 +55,24 @@ Common challenges include:
 
 # 🔴 Data Processing
 ## 7. What techniques do you use for feature engineering?
-Feature engineering is a critical step in the machine learning process. I use several techniques depending on the nature of the data and the problem at hand. For numerical data, I apply transformations such as scaling, normalization, and polynomial features. For categorical data, I use techniques like one-hot encoding, label encoding, and embedding representations. I also create interaction features that capture relationships between different variables. Additionally, I employ domain-specific knowledge to derive new features that can provide better insights for the models. For instance, when working on a financial dataset, I created features like moving averages and volatility measures to enhance the predictive power of the models.
+Feature engineering is a critical step in the machine learning process. I use several techniques depending on the nature of the data and the problem at hand.
+For numerical data, I apply transformations such as scaling, normalization, and polynomial features.
+For categorical data, I use techniques like one-hot encoding, label encoding, and embedding representations.
+I also create interaction features that capture relationships between different variables.
+Additionally, I employ domain-specific knowledge to derive new features that can provide better insights for the models.
+For instance, when working on a financial dataset, I created features like moving averages and volatility measures to enhance the predictive power of the models.
 
 ## 8. Can you give an example of a complex data pipeline you have built and the challenges you faced?
-One of the complex data pipelines I built was for a customer churn prediction project. The pipeline integrated data from multiple sources, including customer interactions, transaction history, and support tickets. One of the challenges was dealing with the volume and variety of data, as it required real-time processing and aggregation of streaming data. To address this, I used Apache Kafka for data ingestion and Apache Flink for real-time processing. Another challenge was ensuring data consistency and accuracy, given the different formats and update frequencies of the data sources. I implemented a robust data validation framework to ensure data quality and used a combination of batch and stream processing to keep the data synchronized.
+One of the complex data pipelines I built was for a customer churn prediction project.
+The pipeline integrated data from multiple sources, including customer interactions, transaction history, and support tickets.
+One of the challenges was dealing with the volume and variety of data, as it required real-time processing and aggregation of streaming data.
+To address this, I used Apache Kafka for data ingestion and Apache Flink for real-time processing.
+Another challenge was ensuring data consistency and accuracy, given the different formats and update frequencies of the data sources.
+I implemented a robust data validation framework to ensure data quality and used a combination of batch and stream processing to keep the data synchronized.
+
+## 9. How do you handle missing data in your pipelines?
+Handling missing data is a common challenge in data processing. My approach depends on the context and the amount of missing data.
+For small amounts of missing data, I might use imputation techniques like mean, median, or mode imputation.
+For larger gaps, I consider more sophisticated methods such as using predictive modeling to estimate missing values or utilizing domain-specific knowledge to fill in the gaps.
+In some cases, it may be appropriate to remove records with missing data if they are not significant.
+Additionally, I always ensure to document the steps taken to handle missing data and their potential impact on the analysis.
