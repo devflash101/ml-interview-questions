@@ -76,3 +76,10 @@ For small amounts of missing data, I might use imputation techniques like mean, 
 For larger gaps, I consider more sophisticated methods such as using predictive modeling to estimate missing values or utilizing domain-specific knowledge to fill in the gaps.
 In some cases, it may be appropriate to remove records with missing data if they are not significant.
 Additionally, I always ensure to document the steps taken to handle missing data and their potential impact on the analysis.
+
+## 10. How do you ensure the maintainability of data processing pipelines?
+Ensuring maintainability involves several practices.
+Firstly, I use version control systems like Git to track changes and collaborate with team members.
+I also write comprehensive unit tests to catch any issues early.
+Additionally, I document the pipeline thoroughly and use logging to monitor its performance and catch any anomalies in real-time.
+Automated CI/CD pipelines are used to deploy updates seamlessly.
