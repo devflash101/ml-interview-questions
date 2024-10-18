@@ -1,5 +1,4 @@
-# ml-interview-questions
-Data Science and Machine Learning Interview Questions I faced.
+# Top Recent Data Science, Machine Learning, Deep Learning and Generative AI Interview Questions I faced.
 
 # 🔴 Lead the effort to leverage existing AI models and frameworks to solve business problems across domains
 
@@ -84,10 +83,10 @@ I also write comprehensive unit tests to catch any issues early.
 Additionally, I document the pipeline thoroughly and use logging to monitor its performance and catch any anomalies in real-time.
 Automated CI/CD pipelines are used to deploy updates seamlessly.
 
-# 🔴 Architecture of the Q&A system
-## 11. Question: Can you explain the architecture of the Q&A system you developed using LLMs?
+# 🔴 Q&A system
+## 11. Can you explain the architecture of the Q&A system you developed using LLMs?
 The Q&A system architecture is built around a fine-tuned large language model (LLM) like GPT-3/4. The system consists of several components:
-• **Input Processing**: User queries are first processed through a pre-processing layer, which normalizes the text, removes stop words, and tokenizes it for the LLM.
-• **Model Inference**: The processed input is passed to the LLM, which generates a response based on its training data and fine-tuning specific to our Q&A domain.
-• **Post-processing**: The generated response is then refined through post-processing steps, such as filtering irrelevant content, adjusting the format, and sometimes performing additional lookups to ensure accuracy.
-• **Feedback Loop**: There is a feedback mechanism where user ratings of answers are fed back into the system, allowing continuous improvement through reinforcement learning.
+- **Input Processing**: User queries are first processed through a pre-processing layer, which normalizes the text, removes stop words, and tokenizes it for the LLM.
+- **Model Inference**: The processed input is passed to the LLM, which generates a response based on its training data and fine-tuning specific to our Q&A domain.
+- **Post-processing**: The generated response is then refined through post-processing steps, such as filtering irrelevant content, adjusting the format, and sometimes performing additional lookups to ensure accuracy.
+- **Feedback Loop**: There is a feedback mechanism where user ratings of answers are fed back into the system, allowing continuous improvement through reinforcement learning.
