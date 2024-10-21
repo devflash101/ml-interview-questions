@@ -90,3 +90,11 @@ The Q&A system architecture is built around a fine-tuned large language model (L
 - **Model Inference**: The processed input is passed to the LLM, which generates a response based on its training data and fine-tuning specific to our Q&A domain.
 - **Post-processing**: The generated response is then refined through post-processing steps, such as filtering irrelevant content, adjusting the format, and sometimes performing additional lookups to ensure accuracy.
 - **Feedback Loop**: There is a feedback mechanism where user ratings of answers are fed back into the system, allowing continuous improvement through reinforcement learning.
+
+## 12. How did you fine-tune the LLM for the Q&A task?
+Fine-tuning was done by selecting a large dataset specific to the domain of our Q&A system.
+We used supervised fine-tuning with labeled data where questions were paired with their correct answers. The training involved:
+- **Data Preprocessing**: Ensuring the data was clean, with correctly formatted pairs, and dividing the dataset into training, validation, and test sets.
+- **Training**: We used transfer learning by starting with a pre-trained LLM and further training it on our specific dataset.
+The fine-tuning involved adjusting the weights to better align the model’s outputs with the desired responses for our domain.
+- **Evaluation**: We evaluated the model’s performance using metrics like accuracy, F1-score, and BLEU score to ensure the fine-tuned model was providing accurate and relevant answers.
