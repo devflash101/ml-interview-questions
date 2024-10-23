@@ -98,3 +98,14 @@ We used supervised fine-tuning with labeled data where questions were paired wit
 - **Training**: We used transfer learning by starting with a pre-trained LLM and further training it on our specific dataset.
 The fine-tuning involved adjusting the weights to better align the model’s outputs with the desired responses for our domain.
 - **Evaluation**: We evaluated the model’s performance using metrics like accuracy, F1-score, and BLEU score to ensure the fine-tuned model was providing accurate and relevant answers.
+
+## 13. What challenges did you face when developing the Q&A system using LLMs?
+Several challenges were encountered during development:
+- **Handling Ambiguity**: LLMs sometimes produce ambiguous or vague answers.
+We addressed this by implementing disambiguation techniques, such as re-asking clarifying questions or using additional context to refine the answer.
+- **Ensuring Accuracy**: While LLMs are powerful, they can sometimes generate incorrect or misleading information.
+We introduced a secondary validation layer where answers are cross-checked with a trusted database or knowledge base.
+- **Computational Resources**: Fine-tuning and deploying LLMs require significant computational power.
+We optimized the process by using distributed training and fine-tuning only the necessary layers rather than the entire model.
+- **Ethical Considerations**: Ensuring the system does not produce biased or inappropriate answers was a priority.
+We incorporated bias detection and correction mechanisms during both training and inference stages.
