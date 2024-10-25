@@ -109,3 +109,12 @@ We introduced a secondary validation layer where answers are cross-checked with 
 We optimized the process by using distributed training and fine-tuning only the necessary layers rather than the entire model.
 - **Ethical Considerations**: Ensuring the system does not produce biased or inappropriate answers was a priority.
 We incorporated bias detection and correction mechanisms during both training and inference stages.
+
+## 14. How do you measure the effectiveness of the Q&A system?
+Effectiveness is measured using several metrics:
+- **Accuracy**: The percentage of questions for which the system provides the correct answer.
+- **Precision and Recall**: Precision measures the relevancy of the answers provided, while recall measures the system’s ability to find all relevant answers.
+- **F1 Score**: A harmonic mean of precision and recall, providing a balanced measure of the system’s accuracy.
+- **User Feedback**: Collecting and analyzing user feedback helps gauge the perceived quality of the answers.
+We track user satisfaction scores and use this data to improve the system.
+- **Latency**: The time taken to generate an answer. We aim to balance accuracy with responsiveness, ensuring users receive timely answers.
