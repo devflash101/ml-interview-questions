@@ -118,3 +118,11 @@ Effectiveness is measured using several metrics:
 - **User Feedback**: Collecting and analyzing user feedback helps gauge the perceived quality of the answers.
 We track user satisfaction scores and use this data to improve the system.
 - **Latency**: The time taken to generate an answer. We aim to balance accuracy with responsiveness, ensuring users receive timely answers.
+
+## 15. What techniques did you use to reduce the response time of the LLM-based Q&A system?
+To reduce response time, we implemented several optimizations:
+- **Model Pruning**: We pruned unnecessary parts of the model to reduce the number of computations required during inference.
+- **Caching**: We used caching mechanisms to store responses to frequently asked questions, allowing the system to retrieve answers quickly without reprocessing.
+- **Batch Processing**: For environments where multiple queries are processed simultaneously,
+we implemented batch processing, where the model processes multiple queries in a single forward pass.
+- **Quantization**: We quantized the model, reducing its precision (e.g., from 32-bit to 16-bit) to speed up inference without significantly affecting accuracy.
