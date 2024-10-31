@@ -148,3 +148,11 @@ If a question is classified as out-of-domain, the system provides a generic resp
 - **Fallback Mechanisms**: If the LLM detects it cannot confidently answer a question, it triggers fallback mechanisms,
 such as responding with a clarification request or providing an option for human escalation.
 - **Continuous Learning**: We track out-of-domain questions and use them to continually expand the model’s knowledge base, ensuring the system evolves to cover more topics over time.
+
+## 17. What steps did you take to ensure the security and privacy of the data used in the Q&A system?
+Ensuring security and privacy was paramount:
+- **Data Encryption**: All data at rest and in transit is encrypted using industry-standard protocols to prevent unauthorized access.
+- **Anonymization**: User data is anonymized before being used for training or analysis to protect privacy.
+- **Access Control**: We implemented strict access control mechanisms, ensuring that only authorized personnel can access sensitive data.
+- **Compliance**: The system complies with relevant regulations like GDPR, ensuring user data is handled appropriately and that users have control over their personal information.
+- **Regular Audits**: We perform regular security audits and vulnerability assessments to identify and address potential risks.
