@@ -156,3 +156,15 @@ Ensuring security and privacy was paramount:
 - **Access Control**: We implemented strict access control mechanisms, ensuring that only authorized personnel can access sensitive data.
 - **Compliance**: The system complies with relevant regulations like GDPR, ensuring user data is handled appropriately and that users have control over their personal information.
 - **Regular Audits**: We perform regular security audits and vulnerability assessments to identify and address potential risks.
+
+# 🔴 
+## 18. How do you handle class imbalance in a dataset when training a machine learning model?
+Handling class imbalance involves several strategies:
+- **Resampling the Dataset**: This can be done by either oversampling the minority class or undersampling the majority class.
+Techniques like SMOTE (Synthetic Minority Over-sampling Technique) can generate synthetic examples for the minority class.
+- **Using Different Metrics**: Instead of accuracy, which can be misleading with imbalanced data,
+I use metrics like precision, recall, F1-score, and ROC-AUC to evaluate the model performance.
+- **Algorithmic Approaches**: I can use algorithms that are robust to class imbalance,
+such as XGBoost or algorithms that allow for assigning different weights to classes (e.g., adjusting class weights in logistic regression or SVM).
+- **Ensemble Methods**: Combining multiple models (e.g., bagging and boosting) can help improve performance on imbalanced datasets.
+- **Generating Synthetic Data**: In the context of Snorkel, generating synthetic data through programmatic labeling functions can help balance the classes.
