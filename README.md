@@ -157,7 +157,7 @@ Ensuring security and privacy was paramount:
 - **Compliance**: The system complies with relevant regulations like GDPR, ensuring user data is handled appropriately and that users have control over their personal information.
 - **Regular Audits**: We perform regular security audits and vulnerability assessments to identify and address potential risks.
 
-# 🔴 
+# 🔴 Model dataset
 ## 18. How do you handle class imbalance in a dataset when training a machine learning model?
 Handling class imbalance involves several strategies:
 - **Resampling the Dataset**: This can be done by either oversampling the minority class or undersampling the majority class.
@@ -168,3 +168,13 @@ I use metrics like precision, recall, F1-score, and ROC-AUC to evaluate the mode
 such as XGBoost or algorithms that allow for assigning different weights to classes (e.g., adjusting class weights in logistic regression or SVM).
 - **Ensemble Methods**: Combining multiple models (e.g., bagging and boosting) can help improve performance on imbalanced datasets.
 - **Generating Synthetic Data**: In the context of Snorkel, generating synthetic data through programmatic labeling functions can help balance the classes.
+
+# 🔴 Model training
+## 19. Explain how you would evaluate the performance of a machine learning model in a real-world application.
+Evaluating the performance of a machine learning model involves several steps:
+- **Define the Success Metrics**: Depending on the application, the appropriate metrics might include accuracy, precision, recall, F1-score, ROC-AUC, or mean squared error for regression tasks.
+- **Cross-Validation**: Use cross-validation techniques to ensure the model performs well on unseen data. This helps in assessing the model’s generalizability.
+- **Confusion Matrix**: Analyze the confusion matrix to understand the types of errors the model makes (false positives and false negatives).
+- **Error Analysis**: Conduct a detailed error analysis to identify patterns in the model’s mistakes and refine the model accordingly.
+- **Real-World Testing**: Deploy the model in a controlled environment and monitor its performance on real-world data. Gather feedback and iterate.
+- **Robustness and Fairness**: Evaluate the model’s robustness to different data distributions and its fairness across different demographic groups.
