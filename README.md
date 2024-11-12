@@ -178,3 +178,12 @@ Evaluating the performance of a machine learning model involves several steps:
 - **Error Analysis**: Conduct a detailed error analysis to identify patterns in the model’s mistakes and refine the model accordingly.
 - **Real-World Testing**: Deploy the model in a controlled environment and monitor its performance on real-world data. Gather feedback and iterate.
 - **Robustness and Fairness**: Evaluate the model’s robustness to different data distributions and its fairness across different demographic groups.
+
+# 🔴 Behavioral Questions
+## 20. Describe a time when you had to work with a cross-functional team to deliver a machine learning project. How did you ensure successful collaboration?
+In a previous role, I led a project to develop a predictive maintenance system for manufacturing equipment.
+The project involved collaboration with data engineers, domain experts, and product managers.
+To ensure successful collaboration, I organized regular meetings to align on project goals, timelines, and responsibilities.
+I established clear communication channels using Slack and project management tools like Jira to track progress and address issues promptly.
+I also encouraged knowledge sharing sessions where team members could discuss their insights and challenges.
+By fostering a collaborative environment and maintaining open communication, we were able to deliver a successful solution that met the stakeholders' requirements.
